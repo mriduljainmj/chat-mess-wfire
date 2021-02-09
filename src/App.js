@@ -53,9 +53,9 @@ function App() {
   <div class="app__form">
   <form>
   <FormControl class="app__formcontrol">
-  <Input placeholder="Enter the message" class="app__input" value={input} onChange = {remain}/>
-  <IconButton class ="app__icon" size="medium" disableRipple='false' color="primary" type="submit" disabled = {!input} onClick = {sendMessage} >
-    <SendRoundedIcon/>
+  <input class="app__input" placeholder="Enter the message"  value={input} onChange = {remain}/>
+  <IconButton class ="app__icon"  disableRipple='false' color="primary" type="submit" disabled = {!input} onClick = {sendMessage} >
+    <SendRoundedIcon />
   </IconButton>
   </FormControl>
   </form>
